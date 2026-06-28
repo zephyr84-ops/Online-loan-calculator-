@@ -142,13 +142,6 @@ body {
     color: #777;
 }
 
-.togglePassword {
-    position: absolute;
-    right: 15px;
-    top: 18px;
-    cursor: pointer;
-    color: #777;
-}
 
 .remember {
     display: flex;
