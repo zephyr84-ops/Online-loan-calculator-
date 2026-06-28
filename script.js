@@ -42,10 +42,20 @@ if (registerForm) {
     registerForm.onsubmit = function (e) {
         e.preventDefault();
 
-        alert("Registration Successful");
+      
+      const msg = document.getElementById("registerMessage");
 
-        registerPage.classList.remove("active");
-        loginPage.classList.add("active");
+msg.style.display = "block";
+msg.innerHTML = "✓ Registration Successful";
+
+setTimeout(function () {
+
+    msg.style.display = "none";
+
+    registerPage.classList.remove("active");
+    loginPage.classList.add("active");
+
+},2000);
     };
 }
 
