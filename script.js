@@ -105,4 +105,5 @@ if (calculateBtn) {
         document.getElementById("totalPayment").innerHTML =
             totalPayment.toFixed(2);
     };
+  
 }
