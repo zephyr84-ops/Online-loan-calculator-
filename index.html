@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Online Loan Calculator</title>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+    </head>
+
+    <body>
+        <!-- ================= LOGIN PAGE ================= -->
+
+        <section id="loginPage" class="page active">
+            <div class="container">
+                <div class="left-side">
+                    <div class="overlay">
+                        <i class="fa-solid fa-building-columns logo-icon"></i>
+
+                        <h1>Online Loan Calculator</h1>
+
+                        <p>
+                            Welcome to the easiest and fastest loan calculator.
+                            Login to continue using our secure financial
+                            services.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Secure
+                                System
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Instant
+                                Loan Calculation
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Mobile
+                                Friendly
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Easy To
+                                Use
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="form-box">
+                        <div class="logo">
+                            <i class="fa-solid fa-user-lock"></i>
+
+                            <h2>Welcome Back</h2>
+
+                            <p>Please login to your account</p>
+                        </div>
+
+                        <form id="loginForm">
+                            <div class="input-group">
+                                <i class="fa-solid fa-envelope"></i>
+
+                                <input
+                                    type="email"
+                                    id="loginEmail"
+                                    placeholder="Email Address"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fa-solid fa-lock"></i>
+
+                                <input
+                                    type="password"
+                                    id="loginPassword"
+                                    placeholder="Password"
+                                    required
+                                />
+
+                                <span class="togglePassword">
+                                    <i class="fa-solid fa-eye"></i>
+                                </span>
+                            </div>
+
+                            <div class="remember">
+                                <label>
+                                    <input type="checkbox" />
+
+                                    Remember Me
+                                </label>
+
+                                <a href="#">Forgot Password?</a>
+                            </div>
+
+                            <button class="btn" type="submit">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+
+                                Login
+                            </button>
+
+                            <p class="switch">
+                                Don't have an account?
+
+                                <a href="#" id="showRegister"> Register Now </a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================= REGISTER PAGE ================= -->
+
+        <section id="registerPage" class="page">
+            <div class="container">
+                <div class="left-side">
+                    <div class="overlay">
+                        <i class="fa-solid fa-user-plus logo-icon"></i>
+
+                        <h1>Create Your Account</h1>
+
+                        <p>
+                            Create a free account and enjoy fast, accurate loan
+                            calculations with a modern and secure system.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Free
+                                Registration
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Secure
+                                User Account
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Easy
+                                Navigation
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i> Fast
+                                Performance
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="form-box">
+                        <div class="logo">
+                            <i class="fa-solid fa-user-plus"></i>
+
+                            <h2>Create Account</h2>
+
+                            <p>Fill all information below</p>
+                        </div>
+
+                        <form id="registerForm">
+                            <div class="input-group">
+                                <i class="fa-solid fa-user"></i>
+
+                                <input
+                                    type="text"
+                                    id="fullName"
+                                    placeholder="Full Name"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fa-solid fa-envelope"></i>
+
+                                <input
+                                    type="email"
+                                    id="registerEmail"
+                                    placeholder="Email Address"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fa-solid fa-phone"></i>
+
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    placeholder="Phone Number"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fa-solid fa-lock"></i>
+
+                                <input
+                                    type="password"
+                                    id="registerPassword"
+                                    placeholder="Password"
+                                    required
+                                />
+
+                                <span class="togglePassword">
+                                    <i class="fa-solid fa-eye"></i>
+                                </span>
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fa-solid fa-lock"></i>
+
+                                <input
+                                    type="password"
+                                    id="confirmPassword"
+                                    placeholder="Confirm Password"
+                                    required
+                                />
+
+                                <span class="togglePassword">
+                                    <i class="fa-solid fa-eye"></i>
+                                </span>
+                            </div>
+
+                            <button class="btn" type="submit">
+                                <i class="fa-solid fa-user-check"></i>
+
+                                Create Account
+                            </button>
+
+                            <p class="switch">
+                                Already have an account?
+
+                                <a href="#" id="showLogin"> Login </a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================= CALCULATOR PAGE ================= -->
+
+        <section id="calculatorPage" class="page">
+            <header>
+                <h2>
+                    <i class="fa-solid fa-calculator"></i>
+                    Online Loan Calculator
+                </h2>
+
+                <button id="logoutBtn" class="logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
+                </button>
+            </header>
+
+            <div class="calculator-card">
+                <h3>Loan Information</h3>
+
+                <div class="input-group">
+                    <label>Loan Amount (TZS)</label>
+
+                    <input
+                        type="number"
+                        id="amount"
+                        placeholder="Enter Loan Amount"
+                    />
+                </div>
+
+                <div class="input-group">
+                    <label>Annual Interest Rate (%)</label>
+
+                    <input
+                        type="number"
+                        id="interest"
+                        placeholder="Example: 15"
+                    />
+                </div>
+
+                <div class="input-group">
+                    <label>Loan Period (Years)</label>
+
+                    <input type="number" id="years" placeholder="Example: 5" />
+                </div>
+
+                <button id="calculateBtn" class="btn">
+                    <i class="fa-solid fa-calculator"></i>
+
+                    Calculate Loan
+                </button>
+
+                <div class="result">
+                    <h3>Loan Results</h3>
+
+                    <p>
+                        Monthly Payment
+                        <span id="monthly">0.00</span>
+                    </p>
+
+                    <p>
+                        Total Interest
+                        <span id="totalInterest">0.00</span>
+                    </p>
+
+                    <p>
+                        Total Payment
+                        <span id="totalPayment">0.00</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
