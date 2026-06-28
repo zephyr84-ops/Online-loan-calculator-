@@ -359,4 +359,15 @@ header h2 {
     .logout {
         width: 100%;
     }
+    .message{
+    display:none;
+    background:#d4edda;
+    color:#155724;
+    border:1px solid #c3e6cb;
+    padding:12px;
+    border-radius:8px;
+    margin-bottom:15px;
+    text-align:center;
+    font-weight:600;
+}
 }
